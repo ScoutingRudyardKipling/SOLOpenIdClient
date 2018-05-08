@@ -1,0 +1,34 @@
+{
+  "name": "scoutingrudyardkipling/solopenidclient",
+  "type": "library",
+  "description": "Lightweight PHP5+ library for easy SOL OpenID authentication.",
+  "keywords": [
+    "openid",
+    "authentication",
+    "security"
+  ],
+  "homepage": "https://github.com/ScoutingRudyardKipling/SOLAuthenticator",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Mewp",
+      "homepage": "https://code.google.com/p/lightopenid/"
+    },
+    {
+      "name": "Ignat Ignatov",
+      "homepage": "https://github.com/iignatov/LightOpenID"
+    },
+    {
+      "name": "Frank Kuipers",
+      "homepage": "https://github.com/ScoutingRudyardKipling/SOLOpenIdClient"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "iignatov/lightopenid": "*"
+  },
+  "autoload": {
+    "psr-4": {"ScoutingRudyardKipling\\": "src/"}
+  }
+}
