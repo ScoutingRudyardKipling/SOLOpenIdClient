@@ -5,7 +5,10 @@
   "keywords": [
     "openid",
     "authentication",
-    "security"
+    "security",
+    "laravel",
+    "scouting",
+    "scoutingnederland"
   ],
   "homepage": "https://github.com/ScoutingRudyardKipling/SOLAuthenticator",
   "license": "MIT",

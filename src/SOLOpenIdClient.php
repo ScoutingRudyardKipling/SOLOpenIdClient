@@ -28,7 +28,7 @@ class SOLOpenIdClient extends \LightOpenID
     private static $snl_login_namespace = 'https://login.scouting.nl/user/';
 
     /**
-     * Set the theme of the login page theme
+     * Set the theme of the login page
      *
      * @param string $theme
      */
