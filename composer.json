@@ -19,8 +19,8 @@
       "homepage": "https://code.google.com/p/lightopenid/"
     },
     {
-      "name": "Ignat Ignatov",
-      "homepage": "https://github.com/iignatov/LightOpenID"
+      "name": "Marcel Satariall",
+      "homepage": "https://github.com/Satariall/LightOpenID"
     },
     {
       "name": "Frank Kuipers",
@@ -29,7 +29,7 @@
   ],
   "require": {
     "php": ">=5.4",
-    "iignatov/lightopenid": "*"
+    "satariall/lightopenid": "*"
   },
   "autoload": {
     "psr-4": {"ScoutingRudyardKipling\\": "src/"}
