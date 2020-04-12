@@ -48,7 +48,7 @@ class SOLOpenIdClient extends \LightOpenID
         $namespace = explode('/', $username);
         $username  = array_pop($namespace);
 
-        $this->identity = self::$snl_login_namespace . strtolower($username);
+        $this->claimed_id = $this->identity = self::$snl_login_namespace . strtolower($username);
 
         return $this;
     }
